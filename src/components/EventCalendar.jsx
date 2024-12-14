@@ -7,6 +7,7 @@ import { Textarea } from "../components/ui/textarea";
 import { ChevronLeft, ChevronRight, Plus, Trash2, Edit, Search } from 'lucide-react';
 
 const EventCalendar = () => {
+  
   // State management
   const [currentDate, setCurrentDate] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(null);
